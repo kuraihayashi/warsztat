@@ -1,0 +1,321 @@
+/*Icon made by Icongeek26 from www.flaticon.com */
+/*font-family: 'Roboto', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: dimgray;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #576780;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+header {
+    overflow: hidden;
+    background-image: url(../img/1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header div.header {
+
+    position: relative;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+header div.motto {
+    position: absolute;
+    padding: 10px 0;
+    bottom: 10%;
+    right: 0;
+    left: 0;
+    color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .8)
+}
+
+header div.motto h2 {
+    margin: 15px 10px 10px 10px;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+header div.motto p {
+    margin: 10px 5px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/* header img.logo {
+    width: 200px;
+    margin: 20px auto;
+} */
+
+header img.logo {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+    top: 10%;
+}
+
+/* WRAP */
+div.wrap {
+    background-color: #e9ebee;
+}
+
+/*SEKCJA ABOUT*/
+.about {
+    background-color: #e9ebee5d;
+    /* padding-bottom: 2px; */
+}
+
+.about h1 {
+    border-bottom: solid #87D631 3px;
+    max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    /* color: #576780; */
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100vw;
+    text-align: center;
+    font-size: 28px;
+    /* margin-bottom: 15px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.about .worker h2 {
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border-bottom: #576780 1px solid;
+}
+
+.about .worker img {
+    box-shadow: 1px 2px solid black;
+    float: left;
+    height: 125px;
+    margin-left: 15px;
+    margin-top: 20px;
+
+}
+
+.about .worker p {
+    font-size: 16px;
+    text-align: left;
+    padding: 2% 2% 5% 47%;
+}
+
+/*SEKCJA CONTENT*/
+.content h1 {
+    max-width: 290px;
+    background-color: #e9ebee;
+    border-bottom: solid #87D631 3px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 70px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.content .icons {
+    padding: 10px 2px;
+    text-align: center;
+    background-color: #e9ebee;
+}
+
+.content .icons .icon {
+    margin: 15px auto;
+
+}
+
+.content .icons .icon img {
+    height: 30px;
+    float: left;
+    line-height: 40px;
+    padding-left: 20%;
+}
+
+.content .icon p {
+    margin: 20px 20px;
+    padding-left: 90px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*SEKCJA OPEN*/
+.hours {
+    padding: 10px 10px 40px 10px;
+    background-color: #e9ebee;
+
+}
+
+.hours .open h1 {
+    border-bottom: solid #87D631 3px;
+    max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    line-height: 70px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.hours .open div p {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+/*FOOTER*/
+.contact {
+    min-height: 300px;
+    padding-bottom: 1px;
+    background-color: #576780;
+    color: whitesmoke;
+    /* background-color: #e9ebee; */
+}
+
+.contact h1 {
+    background-color: #576780;
+    border-bottom: #FF991E solid 3px;
+    max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 70px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.facebook {
+    margin: 20px 30px;
+}
+
+.contact p {
+    line-height: 40px;
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px 15px;
+}
+
+.contact i {
+    color: whitesmoke;
+    vertical-align: -2px;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.contact .facebook p {
+    margin-left: 25px;
+}
+
+.privacy {
+    background-color: #e9ebee;
+    color: #576780;
+    text-align: center;
+    line-height: 40px;
+}
+
+@media (min-width:360px) {
+
+    header div.motto h2 {
+        font-size: 25px;
+    }
+
+    header div.motto p {
+        margin: 10px 10px;
+        font-size: 19px;
+    }
+
+    header img.logo {
+        width: 250px;
+        left: 16%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about h1 {
+        font-size: 32px;
+    }
+
+    .about .worker h2 {
+        font-size: 28px;
+    }
+
+    .about .worker img {
+        height: 130px;
+    }
+
+    .about .worker p {
+        font-size: 18px;
+    }
+
+    .content h1 {
+        font-size: 32px;
+    }
+
+    .content .icons .icon img {
+        height: 35px;
+    }
+
+    .content .icon p {
+        margin: 30px;
+        font-size: 22px;
+    }
+
+    .hours .open h1 {
+        font-size: 32px;
+    }
+
+    .hours .open div p {
+        font-size: 24px;
+    }
+
+    .contact h1 {
+        min-width: 290px;
+        font-size: 32px;
+    }
+
+    .facebook {
+        margin: 20px 30px;
+    }
+
+    .contact p {
+        margin: 10px 15px;
+    }
+
+    .contact .facebook p {
+        margin-left: 25px;
+    }
+
+    .privacy {
+        background-color: #e9ebee;
+        color: #576780;
+        text-align: center;
+        line-height: 40px;
+    }
+}
